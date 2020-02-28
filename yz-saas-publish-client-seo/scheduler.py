@@ -9,7 +9,7 @@ from queue import Queue
 import threading
 import time
 from multiprocessing import Process
-from importer import *
+from main import *
 
 class Produce(Process):
     def __init__(self,task_queue,*args,**kwargs):
